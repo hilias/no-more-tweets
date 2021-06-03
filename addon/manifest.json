@@ -13,7 +13,7 @@
   ],
   "background": {
     "scripts": [
-      "background_script.js"
+      "index.js"
     ]
   }
 }

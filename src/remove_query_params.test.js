@@ -19,6 +19,3 @@ test('Multiple queryParam in url', () => {
     let testUrlExpected = "https://twitter.com/InternetHippo/status/1344338782737162242?test=10";
     expect(removeQueryParams(testUrl, queryParamsToRemove)).toBe(testUrlExpected);
   });
-
-
-

@@ -5,9 +5,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "webpack",
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^27.0.4"
+    "jest": "^27.0.4",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
   }
 }
