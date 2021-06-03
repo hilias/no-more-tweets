@@ -1,0 +1,13 @@
+{
+  "name": "no-related-tweets",
+  "version": "0.0.1",
+  "author": "hilias@hilias.me",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
