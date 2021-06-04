@@ -5,11 +5,13 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "webpack",
-    "test": "jest"
+    "build": "webpack && web-ext build --source-dir 'addon/'",
+    "test": "jest",
+    "start": "webpack && web-ext run --source-dir 'addon/'"
   },
   "devDependencies": {
     "jest": "^27.0.4",
+    "web-ext": "^6.1.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0"
   }
