@@ -7,5 +7,8 @@ module.exports = {
     output: {
         path: path.join(__dirname, "addon/"),
         filename: "index.js"
+    },
+    optimization: {
+        minimize: false
     }
 };
